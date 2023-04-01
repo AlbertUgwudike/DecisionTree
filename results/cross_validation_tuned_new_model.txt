@@ -1,0 +1,116 @@
+10-fold Cross validation results
+Conducted on on: data/train_full.txt
+
+Training Duration = 58.08s
+Accuracy = 90.77%
+Confusion Matrix: 
+         A    C    E    G    O    Q
+    A   68    0    1    0    0    0
+    C    0   46    3    5    2    1
+    E    0    0   55    1    0    1
+    G    0    4    3   56    4    0
+    O    0    1    0    1   69    4
+    Q    1    1    1    1    1   60
+
+Training Duration = 62.06s
+Accuracy = 90.51%
+Confusion Matrix: 
+         A    C    E    G    O    Q
+    A   71    0    0    0    0    2
+    C    1   43    2    1    2    1
+    E    1    4   57    0    0    0
+    G    0    6    0   69    1    1
+    O    1    0    0    6   50    3
+    Q    0    1    2    0    2   63
+
+Training Duration = 73.49s
+Accuracy = 88.97%
+Confusion Matrix: 
+         A    C    E    G    O    Q
+    A   71    1    0    0    0    0
+    C    0   48    0    5    1    1
+    E    0    1   60    1    0    0
+    G    1    6    2   50    2    0
+    O    0    1    1    3   52    7
+    Q    1    2    1    3    3   66
+
+Training Duration = 74.4s
+Accuracy = 91.79%
+Confusion Matrix: 
+         A    C    E    G    O    Q
+    A   60    0    0    0    0    0
+    C    1   70    0    2    0    1
+    E    0    3   63    1    0    2
+    G    0    0    1   47    4    2
+    O    0    1    0    5   62    1
+    Q    0    2    1    3    2   56
+
+Training Duration = 74.76s
+Accuracy = 91.54%
+Confusion Matrix: 
+         A    C    E    G    O    Q
+    A   67    0    0    0    2    0
+    C    0   52    0    1    1    0
+    E    0    0   72    2    0    1
+    G    1    4    3   53    0    3
+    O    0    2    0    3   60    4
+    Q    0    1    2    1    2   53
+
+Training Duration = 81.37s
+Accuracy = 89.23%
+Confusion Matrix: 
+         A    C    E    G    O    Q
+    A   67    0    0    0    0    0
+    C    0   59    5    2    0    1
+    E    1    1   56    1    2    3
+    G    1    4    2   56    2    2
+    O    2    1    0    2   52    3
+    Q    0    2    0    2    3   58
+
+Training Duration = 88.57s
+Accuracy = 92.56%
+Confusion Matrix: 
+         A    C    E    G    O    Q
+    A   59    0    0    1    0    0
+    C    0   60    2    4    1    0
+    E    1    0   69    3    0    0
+    G    0    1    2   63    2    4
+    O    0    1    0    1   50    3
+    Q    0    0    0    0    3   60
+
+Training Duration = 81.88s
+Accuracy = 90.77%
+Confusion Matrix: 
+         A    C    E    G    O    Q
+    A   65    0    0    2    0    0
+    C    0   50    2    2    0    0
+    E    0    2   55    1    0    2
+    G    1    3    2   70    3    1
+    O    1    1    0    1   55    4
+    Q    0    0    2    3    3   59
+
+Training Duration = 82.58s
+Accuracy = 91.79%
+Confusion Matrix: 
+         A    C    E    G    O    Q
+    A   54    1    0    0    0    0
+    C    0   49    1    3    2    0
+    E    0    0   63    1    0    0
+    G    1    4    2   57    2    1
+    O    0    0    1    2   73    4
+    Q    1    1    0    1    4   62
+
+Training Duration = 76.56s
+Accuracy = 91.28%
+Confusion Matrix: 
+         A    C    E    G    O    Q
+    A   67    0    0    2    0    0
+    C    0   54    3    2    2    1
+    E    1    0   61    1    0    0
+    G    0    5    1   65    2    3
+    O    0    0    0    3   49    3
+    Q    0    0    0    0    5   60
+
+Mean subtree accuracy = 90.92%
+Subtree accuracy stdev = 1.08
+Voting based accuracy = 93.5%

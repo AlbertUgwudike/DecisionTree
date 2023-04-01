@@ -1,0 +1,131 @@
+Cross validation results for model trained on: ../data/train_full.txt
+
+Training set: rows in ../data/train_full.txt with idx % 10 != 0
+Testing set: rows in ../data/train_full.txt with idx % 10 == 0
+Training Duration = 55.55s
+Accuracy = 93.58974358974359%
+Confusion Matrix: 
+         A    C    E    G    O    Q
+    A   73    0    0    0    0    1
+    C    0   48    0    4    0    1
+    E    0    2   50    2    0    0
+    G    0    2    1   75    2    1
+    O    0    0    0    0   63    3
+    Q    1    1    1    0    3   56
+
+Training set: rows in ../data/train_full.txt with idx % 10 != 1
+Testing set: rows in ../data/train_full.txt with idx % 10 == 1
+Training Duration = 56.84s
+Accuracy = 88.71794871794872%
+Confusion Matrix: 
+         A    C    E    G    O    Q
+    A   67    0    0    1    2    0
+    C    0   54    4    2    0    3
+    E    0    2   58    1    0    3
+    G    0    4    3   53    4    1
+    O    0    3    0    0   50    2
+    Q    0    1    0    3    5   64
+
+Training set: rows in ../data/train_full.txt with idx % 10 != 2
+Testing set: rows in ../data/train_full.txt with idx % 10 == 2
+Training Duration = 56.05s
+Accuracy = 94.61538461538461%
+Confusion Matrix: 
+         A    C    E    G    O    Q
+    A   76    0    0    0    0    1
+    C    1   54    0    0    2    1
+    E    1    1   63    2    1    1
+    G    0    1    1   68    0    0
+    O    0    1    1    2   45    1
+    Q    0    0    0    1    2   63
+
+Training set: rows in ../data/train_full.txt with idx % 10 != 3
+Testing set: rows in ../data/train_full.txt with idx % 10 == 3
+Training Duration = 56.53s
+Accuracy = 93.33333333333333%
+Confusion Matrix: 
+         A    C    E    G    O    Q
+    A   70    1    0    0    1    0
+    C    0   60    2    2    1    0
+    E    0    1   69    0    0    0
+    G    1    1    0   62    2    3
+    O    0    2    0    2   56    1
+    Q    0    0    2    0    4   47
+
+Training set: rows in ../data/train_full.txt with idx % 10 != 4
+Testing set: rows in ../data/train_full.txt with idx % 10 == 4
+Training Duration = 54.97s
+Accuracy = 91.02564102564102%
+Confusion Matrix: 
+         A    C    E    G    O    Q
+    A   56    0    2    1    0    2
+    C    0   57    2    1    1    1
+    E    1    1   60    1    0    4
+    G    0    2    2   48    2    0
+    O    0    1    0    3   73    2
+    Q    2    0    0    2    2   61
+
+Training set: rows in ../data/train_full.txt with idx % 10 != 5
+Testing set: rows in ../data/train_full.txt with idx % 10 == 5
+Training Duration = 58.48s
+Accuracy = 92.56410256410257%
+Confusion Matrix: 
+         A    C    E    G    O    Q
+    A   70    0    0    1    0    0
+    C    1   56    1    1    2    0
+    E    0    1   74    0    0    1
+    G    0    5    2   54    0    0
+    O    0    0    0    2   50    1
+    Q    3    0    0    6    2   57
+
+Training set: rows in ../data/train_full.txt with idx % 10 != 6
+Testing set: rows in ../data/train_full.txt with idx % 10 == 6
+Training Duration = 56.02s
+Accuracy = 92.82051282051282%
+Confusion Matrix: 
+         A    C    E    G    O    Q
+    A   58    0    0    0    0    1
+    C    2   59    1    2    0    0
+    E    0    3   57    0    1    2
+    G    0    6    1   64    1    0
+    O    0    1    0    0   62    2
+    Q    0    1    2    1    1   62
+
+Training set: rows in ../data/train_full.txt with idx % 10 != 7
+Testing set: rows in ../data/train_full.txt with idx % 10 == 7
+Training Duration = 57.64s
+Accuracy = 92.3076923076923%
+Confusion Matrix: 
+         A    C    E    G    O    Q
+    A   62    1    0    1    0    0
+    C    0   61    1    1    2    0
+    E    0    3   50    0    1    0
+    G    0    1    1   54    2    4
+    O    1    2    0    2   64    4
+    Q    1    0    0    0    2   69
+
+Training set: rows in ../data/train_full.txt with idx % 10 != 8
+Testing set: rows in ../data/train_full.txt with idx % 10 == 8
+Training Duration = 44.98s
+Accuracy = 93.58974358974359%
+Confusion Matrix: 
+         A    C    E    G    O    Q
+    A   51    0    0    1    0    0
+    C    0   36    1    2    0    0
+    E    0    2   77    2    0    1
+    G    0    3    1   74    3    0
+    O    0    0    2    2   53    2
+    Q    0    0    0    2    1   74
+
+Training set: rows in ../data/train_full.txt with idx % 10 != 9
+Testing set: rows in ../data/train_full.txt with idx % 10 == 9
+Training Duration = 43.09s
+Accuracy = 91.53846153846153%
+Confusion Matrix: 
+         A    C    E    G    O    Q
+    A   69    1    2    1    0    2
+    C    0   49    1    4    0    0
+    E    0    3   62    1    0    0
+    G    0    3    2   53    2    0
+    O    0    1    0    1   64    2
+    Q    0    1    0    3    3   60
